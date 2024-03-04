@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Register here</div>
+        <form action="#">
+            <div class="userdetails">
+                <div class="inputbox"><span class="details">Full Name</span>
+                    <input type="text" placeholder="Enter your name" required>
+                </div>
+                <div class="inputbox"><span class="details">Username</span>
+                    <input type="text" placeholder="Enter your username" required>
+                </div>
+                <div class="inputbox"><span class="details">Email ID</span>
+                    <input type="text" placeholder="Enter your email id" required>
+                </div>
+                <div class="inputbox"><span class="details">Phone Number</span>
+                    <input type="text" placeholder="Enter your Ph no" required>
+                </div>
+                <div class="inputbox"><span class="details">Password</span>
+                    <input type="text" placeholder="Enter your password" required>
+                </div>
+                <div class="inputbox"><span class="details">Confirm Password</span>
+                    <input type="text" placeholder="Confirm your password" required>
+                </div>
+            </div>
+            <div class="genderdetail">
+                <input type="radio" name="Gender" id="ball1">
+                <input type="radio" name="Gender" id="ball2">
+                <input type="radio" name="Gender" id="ball3">
+                <span class="gen">Gender</span>
+                <div class="category">
+                    <label for="ball1">
+                        <span class="dot one"></span>
+                        <span class="gender">Male</span>
+                    </label>
+                    <label for="ball2">
+                        <span class="dot two"></span>
+                        <span class="gender">Female</span>
+                    </label>
+                    <label for="ball3">
+                        <span class="dot three"></span>
+                        <span class="gender">Prefer not to say</span>
+                    </label>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
